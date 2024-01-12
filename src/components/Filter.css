@@ -1,0 +1,21 @@
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 0 3rem;
+    margin-top: 1rem;
+}
+ button{
+   padding: 0.5rem;
+   text-align: center;
+   color: azure;
+   background-color: rgb(2, 2, 64);
+   font-size: 1rem;
+   font-weight: bold;
+   border: 2px solid white;
+   border-radius: 10px;
+ }
+ button:hover{
+    background-color: rgb(0, 119, 255);
+    border: 2px solid rgb(112, 157, 247);
+    transition: 0.2s;
+ }
